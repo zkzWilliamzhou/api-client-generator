@@ -1,0 +1,28 @@
+{
+  "name": "api-client-generator",
+  "version": "0.1.0",
+  "description": "Generate typed API clients from OpenAPI specifications with built-in caching, error normalization, and zero configuration",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "docs": "vitepress build docs",
+    "dev": "vitepress dev docs"
+  },
+  "keywords": ["openapi", "api", "client", "code-generation", "type-safety", "tdd"],
+  "author": "zkzWilliamzhou",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkzWilliamzhou/api-client-generator.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
